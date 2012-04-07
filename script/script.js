@@ -46,9 +46,9 @@ $(document).ready(function() {
 	
 	function distributeLinks() {
 		var containerWidth = $("#footer ul").width();
-		var linkList = ["#twitter", "#facebook", "#github", "#stackoverflow"];
+		var linkList = ["#github", "#stackoverflow", "#linkedin"];
 		
-		var changeWidth = (containerWidth - (48 * 4)) / 5;
+		var changeWidth = (containerWidth - (48 * linkList.length)) / (linkList.length + 1);
 		for(var i = 0; i < linkList.length; i++) {
 			var logo = linkList[i];
 			var leftPlace = changeWidth;
