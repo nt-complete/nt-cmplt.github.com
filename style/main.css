@@ -1,31 +1,57 @@
 body {
 	background-color: #CFC;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 #header {
 	border-bottom: 1px solid black;
-	padding: 10px;
 	margin: auto;
 	font-family: 'Oxygen' sans-serif;
 	width: 100%;
 	height: auto;
 	
 	
+	
 }
 
-p #info {
-	float:left;
+#info {
+	text-align: center;
 	font-weight: 400;
-	display: inline;
+	display: block;
 }
 #header ul {
-	width: 100%;
+	
+	-webkit-padding-start: 0px;
+}
+
+#header a {
+	text-decoration: none;
+	color: black;
+	
 }
 
 #header li {
 	float: none;
 	font-weight: 500;
-	padding-left: 28%;
+
+	letter-spacing: 2px;
 	display: inline;
+	font-size: 19px;
+	
+}
+#work {
+	text-align: left;
+	margin-left: 25%;
+}
+
+
+#personal {
+	float: right !important;
+	margin-right: 25%;
+	
+}
+
+#workDiv {
 	
 }
