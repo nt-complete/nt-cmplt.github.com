@@ -9,6 +9,7 @@ body {
 #header {
 	margin: auto;
 	width: 100%;
+	min-width: 650px;
 	height: auto;
 }
 
@@ -18,11 +19,12 @@ body {
 	display: block;
 }
 
-#header ul {	
+#header ul, #footer ul {	
 	-webkit-padding-start: 0px;
 	padding: 16px;
 	border-top: 3px solid #808080;
 	border-bottom: 1px solid #808080;
+	margin-bottom: 0px;
 }
 
 #header a {
