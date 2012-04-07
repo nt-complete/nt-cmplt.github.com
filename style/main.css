@@ -20,8 +20,8 @@ body {
 	font-weight: 400;
 	display: block;
 }
-#header ul {
-	
+
+#header ul {	
 	-webkit-padding-start: 0px;
 }
 
@@ -52,6 +52,10 @@ body {
 	
 }
 
-#workDiv {
-	
+body #workDiv, body #personalDiv {
+	padding-left: 5px;
+	padding-right: 5px;	
 }
+
+
+
