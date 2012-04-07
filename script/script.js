@@ -6,7 +6,7 @@ $(document).ready(function() {
 	var workButton = $("#work");
 	var personalButton = $("#personal");
 	
-	
+	distributeLinks();
 	
 	workButton.click(function(e) {
 		e.preventDefault();
@@ -44,6 +44,21 @@ $(document).ready(function() {
 		}
 	});
 	
-	$("#infoDiv").click(function() {
+	function distributeLinks() {
+		var containerWidth = $("#footer ul").width();
+		var linkList = ["#twitter", "#facebook", "#github", "#stackoverflow"];
+		
+		var changeWidth = (containerWidth - (48 * 4)) / 5;
+		for(var i = 0; i < linkList.length; i++) {
+			var logo = linkList[i];
+			var leftPlace = changeWidth;
+			$(logo).css("margin-left", leftPlace);
+			
+		}
+		
+	}
+	
+	$(window).resize(function() {
+		distributeLinks();
 	});
 });
