@@ -68,6 +68,11 @@ body #workDiv, body #personalDiv {
 	
 }
 
+#primaryDiv a {
+	font-weight:600;
+	text-decoration: none;
+}
+
 #footer ul {
 	-webkit-padding-start: 0px;
 	padding-top: 16px;
@@ -75,6 +80,7 @@ body #workDiv, body #personalDiv {
 	border-top: 1px solid #808080;
 	height: 30px;
 	min-width: 650px;
+	margin-top: 0px;
 }
 
 #footer .button {
