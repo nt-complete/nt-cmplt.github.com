@@ -1,33 +1,33 @@
 body {
-	background-color: #CFC;
+	background-color: #B2D5EE;
 	padding-left: 100px;
 	padding-right: 100px;
+	color: #505050;
+	font-family: 'Dosis' sans-serif;
 }
 
 #header {
-	border-bottom: 1px solid black;
 	margin: auto;
-	font-family: 'Oxygen' sans-serif;
 	width: 100%;
 	height: auto;
-	
-	
-	
 }
 
 #info {
 	text-align: center;
-	font-weight: 400;
+	font-weight: 600;
 	display: block;
 }
 
 #header ul {	
 	-webkit-padding-start: 0px;
+	padding: 16px;
+	border-top: 3px solid #808080;
+	border-bottom: 1px solid #808080;
 }
 
 #header a {
 	text-decoration: none;
-	color: black;
+	color: #505050;
 	
 }
 
@@ -53,9 +53,17 @@ body {
 }
 
 body #workDiv, body #personalDiv {
-	padding-left: 5px;
-	padding-right: 5px;	
+	/*padding-left: 20%;
+	padding-right: 20%;	
+	border-bottom: 1px solid #808080;*/
+	font-weight: 500;
+	letter-spacing: 1px;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
+
 
 
 
