@@ -5,97 +5,104 @@ body {
 	color: #505050;
 	font-family: 'Dosis' sans-serif;
 }
-
-#header {
+header {
 	margin: auto;
 	width: 100%;
 	min-width: 650px;
 	height: auto;
 }
-
 #info {
 	text-align: center;
 	font-weight: 600;
 	display: block;
 }
-
-#header ul {	
+header ul {
 	-webkit-padding-start: 0px;
 	padding: 16px;
-	border-top: 3px solid #808080;
-	border-bottom: 1px solid #808080;
+	border-top: 3px solid #7D7D7D;
+	border-bottom: 1px solid #7D7D7D;
 	margin-bottom: 0px;
 }
 
-
-
-#header a, #footer a {
+header a, footer a {
 	text-decoration: none;
 	color: #505050;
-	
 }
 
-#header li, #footer li {
+header li, footer li {
 	float: none;
 	font-weight: 500;
 	letter-spacing: 2px;
 	display: inline;
 	font-size: 19px;
-	
 }
+
 #work {
 	text-align: left;
 	margin-left: 25%;
 }
 
-
 #personal {
 	float: right !important;
 	margin-right: 25%;
-	
 }
 
-
 body #workDiv, body #personalDiv {
-	/*padding-left: 20%;
-	padding-right: 20%;	
-	border-bottom: 1px solid #808080;*/
 	font-weight: 500;
 	letter-spacing: 1px;
 	width: 650px;
 	margin-left: auto;
 	margin-right: auto;
-	
+	text-align: justify;
+}
+
+body #workDiv a, body #personalDiv a {
+	color: #33C;
+}
+
+body #personalDiv {
+	margin-top: 16px;
+}
+
+#profileImg {
+	display: block;
+	margin: auto;
 }
 
 #primaryDiv a {
-	font-weight:600;
+	font-weight: 600;
 	text-decoration: none;
 }
 
-#footer ul {
+#fancybox-title-over {
+	font-size: 15px;
+	text-align: center;
+}
+
+footer ul {
 	-webkit-padding-start: 0px;
 	padding-top: 16px;
 	padding-bottom: 16px;
-	border-top: 1px solid #808080;
+	border-top: 1px solid #7D7D7D;
 	height: 30px;
 	min-width: 650px;
 	margin-top: 0px;
 }
 
-#footer .button {
+footer .button {
 	margin-left: 13%;
 	float: left;
 }
 
-#footer img {
+
+footer img {
 	width: 48px;
 	height: 48px;
 }
 
+
 #divider {
-	border-top: 1px solid #808080;
+	border-top: 1px solid #7D7D7D;
 	min-width: 650px;
-	
 }
 
