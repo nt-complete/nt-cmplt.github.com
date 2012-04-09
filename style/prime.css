@@ -8,14 +8,16 @@ body {
 header {
 	margin: auto;
 	width: 100%;
-	min-width: 650px;
+	min-width: 640px;
 	height: auto;
 }
-#info {
+
+.info {
 	text-align: center;
 	font-weight: 600;
 	display: block;
 }
+
 header ul {
 	-webkit-padding-start: 0px;
 	padding: 16px;
@@ -50,7 +52,7 @@ header li, footer li {
 body #workDiv, body #personalDiv {
 	font-weight: 500;
 	letter-spacing: 1px;
-	width: 650px;
+	width: 640px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
@@ -85,7 +87,7 @@ footer ul {
 	padding-bottom: 16px;
 	border-top: 1px solid #7D7D7D;
 	height: 30px;
-	min-width: 650px;
+	min-width: 640px;
 	margin-top: 0px;
 }
 
@@ -103,6 +105,6 @@ footer img {
 
 #divider {
 	border-top: 1px solid #7D7D7D;
-	min-width: 650px;
+	min-width: 640px;
 }
 
