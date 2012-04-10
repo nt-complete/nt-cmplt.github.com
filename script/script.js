@@ -3,17 +3,16 @@ $(document).ready(function() {
 
 	var onButton = 1;
 	
-	var workButton = $("#work");
-	var personalButton = $("#personal");
+	var workButton = $("#work a");
+	var personalButton = $("#personal a");
 	
 	var linkList = ["#github", "#stackoverflow", "#linkedin"];
-	distributeLinks(linkList, "footer");
+	distributeLinks(linkList);
 	
-	linkList = ["#work", "#personal"];
-	//distributeLinks(linkList, "header");
+
 
 	var subjList = ["#twitter", "#facebook"];
-	distributeLinks(subjList, "footer");
+	distributeLinks(subjList);
 	
 	
 	workButton.click(function(e) {
@@ -56,7 +55,7 @@ $(document).ready(function() {
 	});
 	
 	
-	$("header .button").mouseover(function() {
+	$("header .button a").mouseover(function() {
 		$(this).css("text-decoration", "underline");
 	}).mouseout(function() {
 		$(this).css("text-decoration", "none");
@@ -64,13 +63,11 @@ $(document).ready(function() {
 	
 	
 
-	function distributeLinks(links, area) {
-		var containerWidth = $(area).width();	
-		var avgWidth = 0;
-		if(area == "header") avgWidth = 81;
-		else avgWidth = 48;
+	function distributeLinks(links) {
+		var containerWidth = $("footer").width();	
+		
 		//alert(avgWidth);
-		var changeWidth = (containerWidth - (avgWidth * links.length)) / (links.length + 1);
+		var changeWidth = (containerWidth - (48 * links.length)) / (links.length + 1);
 		
 		for(var i = 0; i < links.length; i++) {
 			var logo = links[i];
@@ -82,12 +79,9 @@ $(document).ready(function() {
 	}
 	
 	$(window).resize(function() {
-		linkList = ["#github", "#stackoverflow", "#linkedin"];
-		distributeLinks(linkList, "footer");
-		
-		linkList = ["#work", "#personal"];
-		//distributeLinks(linkList, "header");
-		distributeLinks(subjList, "footer");
+		distributeLinks(linkList);
+
+		distributeLinks(subjList);
 	});
 	
 

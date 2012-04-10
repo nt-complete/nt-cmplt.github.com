@@ -20,7 +20,7 @@ header {
 	display: block;
 }
 
-header ul {
+header table {
 	-webkit-padding-start: 0px;
 	
 	border-top: 3px solid #7D7D7D;
@@ -32,22 +32,25 @@ header ul {
 	display: table;
 	overflow: hidden;
 	width: 100%;
-	padding: 0px;
-	/*	-webkit-padding-start: 0px;
 	padding-top: 16px;
 	padding-bottom: 16px;
+	
+	/*	-webkit-padding-start: 0px;
 	border-top: 1px solid #7D7D7D;
 	height: 30px;
 	min-width: 640px;
 	margin-top: 0px;*/
 }
-
-header li {
+header td {
+	padding: 0px;
+	width: 50%;
+}
+header .button {
 	letter-spacing: 2px;
 	font-size: 19px;
 	font-weight: 500;
-	margin-left: 28%;
-	margin-right: auto;
+	
+
 	
 }
 
