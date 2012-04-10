@@ -91,4 +91,5 @@ $(document).ready(function() {
 		'showCloseButton': true
 		
 	});
+	
 });

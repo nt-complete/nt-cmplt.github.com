@@ -120,6 +120,7 @@ footer ul {
 	-webkit-padding-start: 0px;
 	padding-top: 16px;
 	padding-bottom: 16px;
+	padding-left: 0px;
 	border-top: 1px solid #7D7D7D;
 	height: 30px;
 	min-width: 640px;
