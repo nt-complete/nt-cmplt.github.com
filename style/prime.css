@@ -5,6 +5,7 @@ body {
 	padding-right: 100px;
 	color: #505050;
 	font-family: 'Dosis' sans-serif;
+	min-width: 640px;
 }
 header {
 	margin: auto;
@@ -21,10 +22,33 @@ header {
 
 header ul {
 	-webkit-padding-start: 0px;
-	padding: 16px;
+	
 	border-top: 3px solid #7D7D7D;
-	border-bottom: 1px solid #7D7D7D;
-	margin-bottom: 0px;
+	
+	min-width: 640px;
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+	display: table;
+	overflow: hidden;
+	width: 100%;
+	padding: 0px;
+	/*	-webkit-padding-start: 0px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 1px solid #7D7D7D;
+	height: 30px;
+	min-width: 640px;
+	margin-top: 0px;*/
+}
+
+header li {
+	letter-spacing: 2px;
+	font-size: 19px;
+	font-weight: 500;
+	margin-left: 28%;
+	margin-right: auto;
+	
 }
 
 header a, footer a {
@@ -32,23 +56,30 @@ header a, footer a {
 	color: #505050;
 }
 
-header li, footer li {
+ footer li {
 	float: none;
 	font-weight: 500;
 	letter-spacing: 2px;
 	display: inline;
 	font-size: 19px;
 }
-
-#work {
-	text-align: left;
+/*
+#work, #twitter, #github {
 	margin-left: 25%;
 }
 
-#personal {
-	float: right !important;
-	margin-right: 25%;
+#stackoverflow {
+	margin-left: 50%;
 }
+
+#personal, #facebook, #linkedin {
+	margin-left: 75%;
+}*/
+
+#work, #personal, #twitter, #facebook, #github, #linkedin, #stackoverflow {
+	float: left
+}
+
 
 body #workDiv, body #personalDiv {
 	font-weight: 500;
@@ -104,7 +135,7 @@ footer img {
 }
 
 
-#divider {
+.divider {
 	border-top: 1px solid #7D7D7D;
 	min-width: 640px;
 }
